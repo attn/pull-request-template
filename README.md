@@ -1,9 +1,12 @@
-pull-request-template
+Pull Request Template
 =====================
 
 Our modified pull request template based off of http://quickleft.com/blog/pull-request-templates-make-code-review-easier
 
+## Usage
+* Copy the template markdown below and paste it into your pull request description
 
+````
 #### What's this PR do?
 #### Where should the reviewer start?
 #### How should this be manually tested?
@@ -15,3 +18,4 @@ Our modified pull request template based off of http://quickleft.com/blog/pull-r
 - [ ] Tests included
 - [ ] Documentation provided
 - [ ] End user documentation provided
+````
