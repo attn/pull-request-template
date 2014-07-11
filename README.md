@@ -18,6 +18,7 @@ Our modified pull request template based off of http://quickleft.com/blog/pull-r
 - [ ] Tests included
 - [ ] Documentation provided
 - [ ] End user documentation provided
+
 #### Release Type:
 - [ ] Major
 - [ ] Minor
