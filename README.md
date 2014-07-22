@@ -15,6 +15,7 @@ Our modified pull request template based off of http://quickleft.com/blog/pull-r
 #### Screenshots (if appropriate)
 #### Questions:
 #### Checklist:
+- [ ] Code standard review
 - [ ] Tests included
 - [ ] Documentation provided
 - [ ] End user documentation provided
