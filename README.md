@@ -28,4 +28,6 @@ Our modified pull request template based off of http://quickleft.com/blog/pull-r
 
 ### Bookmarklet
 
-`javascript:(function() {var e = document.getElementById('pull_request_body');if (e) {if (e.value == '') {e.value += "#### What's this PR do?\n#### Where should the reviewer start?\n#### How should this be manually tested?\n#### Any background context you want to provide?\n#### What are the relevant tickets?\n#### Screenshots (if appropriate)\n#### Questions:\n#### Checklist:\n- [ ] Code standard review\n- [ ] Tests included\n- [ ] Documentation provided\n- [ ] End user documentation provided\n\n#### Release Type:\n- [ ] Major\n- [ ] Minor\n- [X] Patch";}}})();`
+````
+javascript:(function() {var e = document.getElementById('pull_request_body');if (e) {if (e.value == '') {e.value += "#### What's this PR do?\n#### Where should the reviewer start?\n#### How should this be manually tested?\n#### Any background context you want to provide?\n#### What are the relevant tickets?\n#### Screenshots (if appropriate)\n#### Questions:\n#### Checklist:\n- [ ] Code standard review\n- [ ] Tests included\n- [ ] Documentation provided\n- [ ] End user documentation provided\n\n#### Release Type:\n- [ ] Major\n- [ ] Minor\n- [X] Patch";}}})();
+````
