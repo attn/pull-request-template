@@ -1,5 +1,4 @@
-attn: Pull Request Template
-===========================
+# ATTN: Pull Request Template
 
 A modified pull request template based on http://quickleft.com/blog/pull-request-templates-make-code-review-easier.
 
