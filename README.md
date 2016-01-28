@@ -1,39 +1,26 @@
-Pull Request Template
-=====================
+# ATTN: Pull Request Template
 
-Our modified pull request template based off of http://quickleft.com/blog/pull-request-templates-make-code-review-easier
+A modified pull request template based on http://quickleft.com/blog/pull-request-templates-make-code-review-easier.
 
 ## Usage
 
 ### Bookmarklet
 
-Select the text below and drag into your bookmarks bar.  When you have a pull request open, click the button and the template will be copied into place.
+When a pull request page is open, click the bookmark and the template will be copied into place.
 
-````
-javascript:(function() {var e = document.getElementById('pull_request_body');if (e) {if (e.value == '') {e.value += "#### What's this PR do?\n#### Where should the reviewer start?\n#### How should this be manually tested?\n#### Any background context you want to provide?\n#### What are the relevant tickets?\n#### Screenshots (if appropriate)\n#### Questions:\n#### Checklist:\n- [ ] Code standard review\n- [ ] Tests included\n- [ ] Documentation provided\n- [ ] End user documentation provided\n\n#### Release Type:\n- [ ] Major\n- [ ] Minor\n- [X] Patch";}}})();
-````
+The bookmarklet currently works in Chrome and Safari, but will not work in Firefox due to a bug in that browser. It might not work in other browsers, or stop working at any time due to browser upgrades. If so, [please open an issue](https://github.com/attn/pull-request-template/issues/new).
+
+#### Installation
+
+Select the Javascript in [bookmarklet.js](bookmarklet.js) and drag it into the bookmarks bar.
+
+In Safari, after dragging the bookmark to the bookmarks bar, follow these steps:
+
+- Copy the Javascript in [bookmarklet.js](bookmarklet.js).
+- Right click the bookmark, and select "Edit Address...".
+- Paste the Javascript and click "Done".
+- Ask why oh why...
 
 ### Old Fashioned
 
-* Copy the template markdown below and paste it into your pull request description
-
-````
-#### What's this PR do?
-#### Where should the reviewer start?
-#### How should this be manually tested?
-#### Any background context you want to provide?
-#### What are the relevant tickets?
-#### Screenshots (if appropriate)
-#### Questions:
-#### Checklist:
-- [ ] Code standard review
-- [ ] Tests included
-- [ ] Documentation provided
-- [ ] End user documentation provided
-
-#### Release Type:
-- [ ] Major
-- [ ] Minor
-- [X] Patch
-````
-
+Copy the template markdown from [pull-request-template.md](https://raw.githubusercontent.com/attn/pull-request-template/master/pull-request-template.md) into the pull request body field.
